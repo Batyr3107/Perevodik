@@ -29,6 +29,20 @@ pytest-cov>=4.0.0
 black>=22.0.0
 flake8>=5.0.0
 
+# NEW: Performance optimizations
+aiohttp>=3.8.0          # Асинхронные HTTP запросы
+asyncio>=3.4.3          # Асинхронное программирование
+redis>=4.5.0            # Redis для кэширования
+diskcache>=5.6.0        # Дисковый кэш
+uvloop>=0.17.0          # Быстрый event loop
+orjson>=3.9.0           # Быстрый JSON
+msgpack>=1.0.5          # Бинарная сериализация
+
+# NEW: Monitoring and analytics
+prometheus-client>=0.16.0  # Метрики Prometheus
+matplotlib>=3.5.0          # Графики производительности
+seaborn>=0.11.0            # Статистические графики
+
 # Optional: Advanced features
 # sentence-transformers>=2.2.0  # For advanced semantic search
 # transformers>=4.20.0          # For local translation models

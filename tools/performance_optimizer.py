@@ -13,6 +13,13 @@ from dataclasses import dataclass
 from datetime import datetime, timedelta
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import queue
+import gc
+
+# Константы оптимизации
+DEFAULT_BATCH_SIZE = 25  # Оптимальный размер батча для DeepL API
+MAX_BATCH_SIZE = 50      # Максимальный размер батча
+MIN_BATCH_SIZE = 10      # Минимальный размер батча
+MEMORY_CLEANUP_THRESHOLD = 100  # Количество операций до очистки памяти
 
 @dataclass
 class PerformanceMetric:
@@ -188,23 +195,32 @@ class PerformanceOptimizer:
         return decorator
     
     def optimize_translation_batch(self, texts: List[str], translate_func: Callable, 
-                                 batch_size: int = 5) -> List[str]:
-        """Оптимизированный пакетный перевод"""
+                                 batch_size: int = DEFAULT_BATCH_SIZE) -> List[str]:
+        """Оптимизированный пакетный перевод с улучшенной производительностью"""
         profile = self.monitor.start_profile("batch_translation")
         
         try:
+            # Адаптивный размер батча
+            optimal_batch_size = self._calculate_optimal_batch_size(len(texts), batch_size)
+            
             results = []
+            processed_count = 0
             
             # Разбиваем на батчи
-            for i in range(0, len(texts), batch_size):
-                batch = texts[i:i + batch_size]
+            for i in range(0, len(texts), optimal_batch_size):
+                batch = texts[i:i + optimal_batch_size]
                 
                 # Переводим батч
                 batch_results = translate_func(batch)
                 results.extend(batch_results)
+                processed_count += len(batch)
                 
-                # Небольшая пауза между батчами
-                time.sleep(0.1)
+                # Адаптивная пауза между батчами
+                self._adaptive_delay(processed_count, len(texts))
+                
+                # Периодическая очистка памяти
+                if processed_count % MEMORY_CLEANUP_THRESHOLD == 0:
+                    self._cleanup_memory()
             
             self.monitor.end_profile(profile, success=True)
             return results
@@ -212,6 +228,31 @@ class PerformanceOptimizer:
         except Exception as e:
             self.monitor.end_profile(profile, success=False, error_message=str(e))
             raise
+    
+    def _calculate_optimal_batch_size(self, total_texts: int, requested_size: int) -> int:
+        """Вычисляет оптимальный размер батча"""
+        # Ограничиваем размер батча
+        optimal_size = min(max(requested_size, MIN_BATCH_SIZE), MAX_BATCH_SIZE)
+        
+        # Если текстов мало, используем меньший батч
+        if total_texts < 50:
+            optimal_size = min(optimal_size, 10)
+        
+        return optimal_size
+    
+    def _adaptive_delay(self, processed: int, total: int):
+        """Адаптивная задержка между батчами"""
+        # Уменьшаем задержку при высокой нагрузке
+        progress = processed / total
+        if progress > 0.8:
+            time.sleep(0.05)  # Быстрее в конце
+        else:
+            time.sleep(0.1)   # Стандартная задержка
+    
+    def _cleanup_memory(self):
+        """Очистка памяти"""
+        gc.collect()
+        print(f"🧹 Очистка памяти выполнена")
     
     def optimize_parallel_processing(self, tasks: List[Callable], max_workers: int = 4) -> List[Any]:
         """Оптимизированная параллельная обработка"""
