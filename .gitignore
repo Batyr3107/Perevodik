@@ -1,0 +1,83 @@
+# Perevodik - Git Ignore File
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+*.log
+*.tmp
+*.temp
+deepl_cache/
+temp/
+cache/
+
+# API keys and secrets
+config_local.py
+.env
+.secrets
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+
+# ChromaDB temporary files
+chroma_db/
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Translation outputs (optional - uncomment if you don't want to track translations)
+# translated/
+# original/
+
+# Backup files
+*.bak
+*.backup
+*_backup.*
+
+# Test outputs
+test_output/
+test_results/
