@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-Content \"C:\\Users\\JusanUser\\PycharmProjects\\Perevod\\translated\\Глава 11-ru.txt\")",
+      "Bash(Measure-Object -Line)",
+      "Bash(python:*)",
+      "Bash(py:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

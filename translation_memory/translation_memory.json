@@ -1,0 +1,370 @@
+{
+  "version": "2.0",
+  "last_updated": "2025-01-15",
+  "description": "Полная интеграция всех справочных файлов: фразы, ошибки, глоссарий, сюжет, журнал переводов",
+  "phrase_translations": {
+    "chapter_1": {
+      "I've actually traveled to another world! Even into a novel? Life is so unpredictable!": "Я реально попал в другой мир! Да ещё и в роман? Вот это поворот!",
+      "A typical, cliché fantasy novel": "Обычная клишированная фэнтези-история",
+      "A quintessential fantasy rich and handsome guy": "Классический фэнтези-красавчик и богач",
+      "This dog-licking Holy Son is now Jiang Chen": "Этот подлиза Святой Сын теперь — Цзян Чэнь",
+      "Stay as far away from this Ye Qingcheng as possible!": "Держаться от этой Е Цинчэн подальше!",
+      "let those two dogs play by themselves": "пусть сами разбираются",
+      "Ding, the Slack-Off System is at your service!": "Динь, Система Лентяя к вашим услугам!",
+      "A golden finger has arrived?": "Чит прибыл?",
+      "Your system ability is quite unique!": "У твоей системы способность прикольная!",
+      "My junior sister may be brainless, but she's indeed top-notch": "Младшая сестрёнка может быть тупой, но во всём остальном она топ"
+    },
+    "chapter_11": {
+      "The Heaven-Piercing Sect Opens, The Son of Destiny Failed to Pretend!": "Секта Пронзающих Небеса открывается, Дитя Судьбы не смог притвориться!",
+      "Fairy Ye, why do you look so upset?": "Фея Е, почему такая мрачная?",
+      "It's such a pity. A devoted man like the Holy Son is rare": "Очень жаль. Таких преданных мало",
+      "Gossip is human nature, and even cultivators are no exception": "Сплетни — нормально. Даже культиваторы любят посплетничать",
+      "What does that have to do with you!": "Какое тебе дело!",
+      "Of course, it matters to me!": "Конечно, мне есть дело!",
+      "Even if you dare, neither the All Pleasure Sect nor Primordial Holy Land would allow it!": "Даже если ты осмелишься, ни Секта Всех Удовольствий, ни Древние Святые Земли этого не позволят!",
+      "Pure!": "Чиста!",
+      "The Heaven-Piercing Sect is opening!": "Секта Пронзающих Небеса открывается!",
+      "Too many people!": "Слишком много людей!",
+      "Looking for death!": "Ищешь смерти!",
+      "Scram!": "Проваливай!"
+    },
+    "chapter_12": {
+      "My Good Sister, Following You Was Indeed the Right Choice!": "Моя хорошая сестрёнка, следовать за тобой было правильным выбором!",
+      "Dammit!": "Чёрт!",
+      "Spirit Palace Realm and you dare to show off? Come back when you're at Soul Passage Realm!": "Духовный Дворец и красоваться? Возвращайся, когда будешь в Царстве Души!",
+      "I am a disciple of the Primordial Sect!": "Я ученик Древних Святых Земель!",
+      "So what if you're a disciple of the Primordial Sect?": "И что с того, что ты ученик Древних Святых Земель?",
+      "If you were the Holy Son, we might have stepped aside": "Если бы ты был Святым Сыном, мы бы могли уступить дорогу",
+      "if our Holy Son were here, would you dare to stand in our way?": "если бы наш Святой Сын был здесь, встали бы вы у нас на пути?",
+      "if the Holy Son really came, we would have already gone inside!": "если бы Святой Сын действительно пришёл, мы бы уже давно зашли внутрь!",
+      "Heh, if the Holy Son really came, we would have already gone inside!": "Ха, если бы Святой Сын действительно пришёл, мы бы уже давно зашли внутрь!",
+      "Heaven-Piercing Palm!": "Ладонь Пронзающая Небеса!",
+      "Innate Yin-Yang Qi!": "Врождённое Ци Инь-Ян!",
+      "Giggle, good sister, following you was indeed the right choice!": "Хаха, хорошая сестрёнка, следовать за тобой было правильным выбором!",
+      "Flirty wench!": "Кокетливая шлюха!",
+      "I saw my good sister trying to avoid me, so I deliberately hid": "Я видела, как моя хорошая сестрёнка пытается избежать меня, поэтому я намеренно спряталась",
+      "this is exactly what our All Pleasure Sect desires most!": "это именно то, чего больше всего желает наша Секта Всех Удовольствий!"
+    },
+    "chapter_13": {
+      "Thank You, My Dear Sister!": "Спасибо, моя дорогая сестрёнка!",
+      "The All Pleasure Sect practices the Yin-Yang Dao, seeking to unravel its mysteries": "Секта Всех Удовольствий практикует Дао Инь-Ян, стремясь разгадать его тайны",
+      "Anything related to the Yin-Yang Dao is a coveted treasure for the sect": "Всё, что связано с Дао Инь-Ян, является желанным сокровищем для секты",
+      "particularly the Innate Yin-Yang Qi, the most desired of all": "особенно Врождённое Ци Инь-Ян — самое желанное из всех",
+      "It's the perfect heavenly material for the sect's methods": "Это идеальный небесный материал для методов секты",
+      "only with Innate Yin-Yang Qi can the sect's most powerful technique be fully mastered": "только с Врождённым Ци Инь-Ян можно полностью освоить самую мощную технику секты",
+      "However, this qi is exceedingly rare": "Однако это ци чрезвычайно редко",
+      "few disciples can perfectly control the Supreme Yin-Yang Scripture": "немногие ученики могут идеально контролировать Высшее Писание Инь-Ян",
+      "My dear sister, this item isn't suitable for you": "Моя дорогая сестрёнка, эта вещь тебе не подходит",
+      "Let me, your little sister, have it!": "Дай мне, твоей младшей сестрёнке, взять её!",
+      "Dream on! How could I give up the Innate Yin-Yang Qi?": "Мечтай! Как я могу отказаться от Врождённого Ци Инь-Ян?",
+      "According to Jiang Chen, it's vital for my rise": "По словам Цзян Чэня, это жизненно важно для моего возвышения",
+      "If I give it up, wouldn't I be cutting off my own path to greatness?": "Если я откажусь, разве не отрежу себе путь к величию?",
+      "I can't agree to this, no matter what": "Я не могу согласиться на это, что бы ни случилось",
+      "If you really want it, sister, I can let you have it": "Если ты действительно хочешь, сестрёнка, я могу отдать тебе",
+      "But sister, think carefully": "Но сестрёнка, подумай хорошенько",
+      "To refine the Innate Yin-Yang Qi, male and female qi combination is a must": "Чтобы очистить Врождённое Ци Инь-Ян, обязательно нужно сочетание мужского и женского ци",
+      "It won't work with one less or one more": "Не сработает, если одного меньше или больше",
+      "Only through cultivation between opposite sexes can it be refined": "Только через культивацию между противоположными полами можно его очистить",
+      "I'll just grab some male cultivator from outside": "я просто схвачу какого-нибудь мужского культиватора снаружи",
+      "By then, you'll lose your purity": "К тому времени ты потеряешь свою чистоту",
+      "What do you think Holy Son would think if he founds out about this?": "Что подумает Святой Сын, если узнает об этом?",
+      "She knew Ye Qingcheng, the ice-cold snow lotus, prided herself on her purity": "Она знала Е Цинчэн — ледяной снежный лотос, гордившуюся своей чистотой",
+      "The idea of giving herself to any male cultivator would be more unbearable than death": "Мысль о том, чтобы отдать себя любому мужскому культиватору, была бы невыносимее смерти",
+      "She was sure Ye Qingcheng lacked the ability to claim the Innate Yin-Yang Qi for herself": "она была уверена, что у Е Цинчэн нет способности завладеть Врождённым Ци Инь-Ян самостоятельно",
+      "requiring special methods known to few, the All Pleasure Sect being the most proficient": "требуя особых методов, известных немногим, причём Секта Всех Удовольствий была самой искусной",
+      "Yan Ruyu's words indeed scared Ye Qingcheng": "Слова Янь Жуюй действительно напугали Е Цинчэн",
+      "She stepped back at the thought of the consequences and how Jiang Chen might react": "которая отступила при мысли о последствиях и о том, как может отреагировать Цзян Чэнь",
+      "She didn't want to become such a person": "Она не хотела стать таким человеком",
+      "Seizing the moment, Yan Ruyu quickly took out a black jade bottle and tapped it": "Пользуясь моментом, Янь Жуюй быстро достала чёрную нефритовую бутылочку и постучала по ней",
+      "A divine light flew out, capturing the Innate Yin-Yang Qi": "Божественный свет вылетел, захватив Врождённое Ци Инь-Ян",
+      "Since you're unwilling, sister, I won't trouble you further": "Раз ты не согласна, сестрёнка, я больше не буду тебя беспокоить",
+      "The Innate Yin-Yang Qi is mine now!": "Врождённое Ци Инь-Ян теперь моё!",
+      "Yan Ruyu laughed like bells and swiftly retreated": "засмеялась Янь Жуюй, как колокольчики, и быстро отступила",
+      "Her words had been mere threats": "Её слова были всего лишь угрозами",
+      "This treasure is vital for me, for forging my Dao foundation and raising my limits": "Это сокровище жизненно важно для меня, для создания основы моего Дао и поднятия моих пределов",
+      "You! Ye Qingcheng was furious, ready to explode": "Ты! — Е Цинчэн была в ярости, готова взорваться",
+      "but Yan Ruyu had already disappeared": "но Янь Жуюй уже исчезла",
+      "I wasn't decisive enough": "Я была недостаточно решительной",
+      "She wasn't sure if her methods could secure the Innate Yin-Yang Qi": "Она не была уверена, смогут ли её методы завладеть Врождённым Ци Инь-Ян",
+      "Her hesitation, fueled by Yan Ruyu's words, let Yan Ruyu act quickly and succeed": "Её колебания, подогретые словами Янь Жуюй, позволили Янь Жуюй действовать быстро и добиться успеха",
+      "It's a pity the Innate Yin-Yang Qi is gone, one of Heaven-Piercing Sect's most precious treasures": "Жаль, что Врождённое Ци Инь-Ян исчезло — одно из самых драгоценных сокровищ Секты Пронзающих Небес",
+      "According to Jiang Chen, it was the foundation of her rise": "По словам Цзян Чэня, это была основа её возвышения",
+      "a chance to stand alongside the young supremes": "шанс встать рядом с молодыми верховными",
+      "Now, that chance was gone": "Теперь этот шанс упущен",
+      "What Jiang Chen said was true": "То, что сказал Цзян Чэнь, было правдой",
+      "The Innate Yin-Yang Qi, the Heaven-Piercing Palm, it was all here": "Врождённое Ци Инь-Ян, Ладонь Пронзающая Небеса — всё это было здесь",
+      "Does that mean the voice I heard in the past was real, and I misunderstood him?": "Значит ли это, что голос, который я слышала в прошлом, был реальным, и я неправильно его поняла?",
+      "she thought, filled with regret and irony for mistaking her benefactor for an enemy": "подумала она, полная сожаления и иронии за то, что приняла своего благодетеля за врага",
+      "I wronged him": "Я обидела его",
+      "She acknowledged solemnly": "признала она торжественно",
+      "She resolved to change, to support Jiang Chen in this life": "Она решила измениться, поддержать Цзян Чэня в этой жизни",
+      "aware it was somewhat late but still hopeful": "понимая, что это несколько поздно, но всё ещё надеясь",
+      "But first, I must find out who Du Goyun's father is!": "Но сначала я должна выяснить, кто отец Ду Гуюня!",
+      "Ye Qingcheng's eyes flashed with resolve": "в глазах Е Цинчэн мелькнула решимость",
+      "Damn those Wang brothers, I'll make them pay!": "Чёрт с этими братьями Ван, я заставлю их заплатить!",
+      "Du Goyun grumbled and cursed the Wang brothers as he finally made it inside": "ворчал и проклинал братьев Ван Ду Гуюнь, когда наконец попал внутрь",
+      "The four brothers had brought him great humiliation and loss of face": "Четверо братьев принесли ему большое унижение и потерю лица",
+      "He vowed that if he ever achieved anything significant, he would first seek revenge on the Wang brothers": "Он поклялся, что если когда-нибудь достигнет чего-то значительного, то первым делом отомстит братьям Ван",
+      "Isn't this trouble of your own making?": "Разве это не твоя собственная вина?",
+      "Cang Lao internally criticized Du Goyun": "внутренне критиковал Ду Гуюня Цан Лао",
+      "If only Du Goyun had been more mature and steady, and not sought trouble": "Если бы Ду Гуюнь был более зрелым и стабильным и не искал неприятностей",
+      "would he have faced such embarrassment?": "столкнулся бы он с таким смущением?",
+      "Of course, Cang Lao couldn't say this outright": "Конечно, Цан Лао не мог сказать это прямо",
+      "With all the misfortunes that had befallen Du Goyun recently": "Со всеми несчастьями, которые постигли Ду Гуюня в последнее время",
+      "saying more might just explode his temperament": "сказать больше могло бы просто взорвать его темперамент",
+      "possibly even leading to resentment towards Cang Lao": "возможно, даже привести к обиде на Цан Лао",
+      "For his own goal of reconstructing his body, Cang Lao chose to remain silent": "Ради своей цели восстановления тела Цан Лао выбрал молчание",
+      "Yet, Du Goyun's misfortunes were far from over": "Однако несчастья Ду Гуюня были далеки от завершения",
+      "Soon, Ye Qingcheng approached him": "Вскоре к нему подошла Е Цинчэн",
+      "Ye Sister! Du Goyun exclaimed with joy upon seeing her": "Сестрёнка Е! — воскликнул Ду Гуюнь с радостью, увидев её",
+      "His previous discontent and anger vanished, replaced by a broad smile": "Его предыдущее недовольство и гнев исчезли, заменённые широкой улыбкой",
+      "as if he were a fawning dog looking at Ye Qingcheng": "словно он был льстивой собакой, смотрящей на Е Цинчэн",
+      "Surely Ye Sister still adores me": "Конечно, сестрёнка Е всё ещё обожает меня",
+      "Her coldness outside must have been just to protect me": "Её холодность снаружи, должно быть, была просто для защиты меня",
+      "Du Goyun happily thought to himself": "счастливо думал Ду Гуюнь про себя",
+      "I doubt that's the case": "Я сомневаюсь, что это так",
+      "Cang Lao thought, looking solemnly at the approaching Ye Qingcheng": "подумал Цан Лао, серьёзно глядя на приближающуюся Е Цинчэн",
+      "She appeared as if she was intent on harming Du Goyun": "Она выглядела так, словно намеревалась навредить Ду Гуюню"
+    }
+  },
+  "translation_errors": {
+    "common_mistakes": {
+      "her slaughtered family": {
+        "wrong": "вырезанную семью",
+        "correct": "убитую семью",
+        "explanation": "Про людей не говорят 'вырезать' - это слово для животных"
+      },
+      "would send her gifts from time to time": {
+        "wrong": "присылал подарки",
+        "correct": "отправлял подарки",
+        "explanation": "'Отправлял' более точно передает смысл действия"
+      },
+      "this woman is perfect in every aspect": {
+        "wrong": "женщина совершенна",
+        "correct": "женщина идеальна",
+        "explanation": "Про людей говорят 'идеальна', а не 'совершенна'"
+      },
+      "extremely hard to kill": {
+        "wrong": "крайне трудно убить",
+        "correct": "очень трудно убить",
+        "explanation": "'Крайне' — запрещённое слово, используй альтернативы"
+      },
+      "I am going to": {
+        "wrong": "Я собираюсь",
+        "correct": "Я буду",
+        "explanation": "Более естественная разговорная форма"
+      },
+      "Allow me to": {
+        "wrong": "Позволь мне",
+        "correct": "Дай мне",
+        "explanation": "'Дай мне' звучит живее в диалогах"
+      }
+    },
+    "forbidden_words": [
+      "крайне",
+      "совершенна",
+      "вырезать",
+      "присылал",
+      "собираюсь",
+      "позволь"
+    ],
+    "preferred_alternatives": {
+      "крайне": "очень, весьма, чрезвычайно",
+      "совершенна": "идеальна",
+      "вырезать": "убить, зарезать",
+      "присылал": "отправлял",
+      "собираюсь": "буду",
+      "позволь": "дай"
+    }
+  },
+  "glossary_terms": {
+    "locations": {
+      "Primordial Holy Land": "Древние Святые Земли",
+      "Cangmang Mountain Range": "Горный хребет Цанман",
+      "Nine Heavens Realm": "Царство Девяти Небес",
+      "Heaven-Piercing Sect": "Секта Пронзающих Небес",
+      "All Pleasure Sect": "Секта Всех Удовольствий"
+    },
+    "characters": {
+      "Jiang Chen": "Цзян Чэнь",
+      "Ye Qingcheng": "Е Цинчэн",
+      "Du Guyun": "Ду Гуюнь",
+      "Yan Ruyu": "Янь Жуюй",
+      "Holy Son": "Святой Сын",
+      "Holy Master": "Повелитель"
+    },
+    "cultivation_terms": {
+      "cultivation": "культивация",
+      "cultivator": "культиватор",
+      "spiritual energy": "духовная энергия",
+      "cultivation base": "основа культивации",
+      "cultivation level": "уровень культивации",
+      "Innate Yin-Yang Body": "врожденное тело Инь-Ян",
+      "formation": "массив",
+      "array": "массив"
+    },
+    "system_terms": {
+      "Slack-Off System": "Система Лентяя",
+      "golden finger": "чит",
+      "system ability": "способность системы",
+      "reward": "награда",
+      "notification": "уведомление"
+    }
+  },
+  "plot_context": {
+    "character_relationships": {
+      "Цзян Чэнь": {
+        "role": "главный герой, бывший подлиза",
+        "personality": "молодежный сленг в мыслях, элегантность в речи со старейшинами",
+        "goals": "избегать Е Цинчэн, использовать систему"
+      },
+      "Е Цинчэн": {
+        "role": "главная героиня, холодная красавица",
+        "personality": "холодная, элегантная, независимая",
+        "relationship_with_jiang_chen": "избегает, не доверяет"
+      },
+      "Ду Гуюнь": {
+        "role": "антагонист, пафосный",
+        "personality": "пафосный, высокомерный",
+        "goals": "получить Е Цинчэн, унизить Цзян Чэня"
+      }
+    },
+    "key_events": {
+      "chapter_1": "Цзян Чэнь попадает в роман, получает систему",
+      "chapter_11": "Секта Пронзающих Небес открывается, конфликт с Ду Гуюнем"
+    },
+    "world_building": {
+      "cultivation_world": "Мир культивации с сектами и духовной энергией",
+      "system_integration": "Современные игровые элементы в древнем мире",
+      "character_voices": "Современный молодежный стиль в мыслях героев"
+    }
+  },
+  "translation_history": {
+    "models_used": {
+      "GPT-4": "гибридный подход с DeepL API",
+      "GPT-5": "ранние переводы"
+    },
+    "quality_scores": {
+      "chapter_1": "98/100 (молодежный стиль)",
+      "chapter_2": "95/100",
+      "chapter_3": "99/100 (исправлен редактором)",
+      "chapter_4": "95/100",
+      "chapter_5": "95/100",
+      "chapter_6": "93/100",
+      "chapter_7": "92/100",
+      "chapter_8": "94/100",
+      "chapter_9": "95/100",
+      "chapter_10": "95/100",
+      "chapter_11": "96/100",
+      "chapter_12": "97/100",
+      "chapter_2": "98/100"
+    },
+    "consistency_fixes": {
+      "Primordial Holy Land": "Изначальная Святая Земля → Древние Святые Земли",
+      "dog licker": "подхалим → подлиза",
+      "translation_memory": "обновлена с новыми терминами"
+    }
+  },
+  "contextual_style_rules": {
+    "author_descriptions": {
+      "pattern": "описания автора, повествование",
+      "style": "нейтральный, литературный, без разговорных слов",
+      "examples": {
+        "awesome": "выдающийся",
+        "amazing": "удивительный",
+        "crazy": "безумный",
+        "cool": "замечательный"
+      },
+      "note": "В описаниях автора использовать нейтральный стиль, разговорные слова только для диалогов и мыслей персонажей"
+    },
+    "Цзян Чэнь_thoughts": {
+      "pattern": "внутренние мысли главного героя",
+      "style": "молодежный сленг, грубость, разговорный",
+      "examples": {
+        "brainless": "тупая",
+        "dog licker": "подлиза",
+        "nonsense": "бред",
+        "crazy": "псих",
+        "awesome": "крутой",
+        "amazing": "бомба"
+      }
+    },
+    "Цзян Чэнь_speech_to_elders": {
+      "pattern": "речь со старейшинами",
+      "style": "элегантная и вежливая",
+      "examples": {
+        "Master": "Учитель",
+        "Elder": "Старейшина",
+        "Holy Master": "Повелитель"
+      }
+    },
+    "system_notifications": {
+      "pattern": "системные уведомления",
+      "style": "игровой стиль",
+      "examples": {
+        "Ding!": "Динь!",
+        "System starting to load": "система начинает загрузку",
+        "Reward obtained": "награда получена"
+      }
+    },
+    "dialog_improvements": {
+      "pattern": "диалоги",
+      "style": "естественная разговорная речь",
+      "examples": {
+        "I am going to": "Я буду",
+        "Allow me to": "Дай мне",
+        "Could you please": "Можешь",
+        "I would like to": "Хочу"
+      }
+    }
+  },
+  "frequency_analysis": {
+    "most_used_terms": {
+      "Древние Святые Земли": 45,
+      "подлиза": 12,
+      "тупая": 8,
+      "Динь!": 15,
+      "Система Лентяя": 5,
+      "культивация": 25,
+      "духовная энергия": 18
+    },
+    "character_voice_consistency": {
+      "Цзян Чэнь": "молодежный сленг в мыслях, элегантность в речи",
+      "Е Цинчэн": "холодная, элегантная",
+      "Янь Жуюй": "кокетливая, провокационная",
+      "Ду Гуюнь": "пафосный, высокомерный"
+    },
+    "error_patterns": {
+      "forbidden_words": 15,
+      "dialog_formality": 8,
+      "cultural_adaptation": 12
+    }
+  },
+  "translation_notes": {
+    "Primordial Holy Land": "Изначально переводилось как 'Изначальная Святая Земля', изменено на 'Древние Святые Земли' для лучшей читабельности",
+    "dog licker": "Изначально 'подхалим', изменено на 'подлиза' для современности",
+    "slacking off": "Изначально 'безделье', изменено на 'лениться' для краткости",
+    "style_evolution": "Переход от книжного стиля к веб-новелле с молодежным сленгом",
+    "consistency_improvements": "Систематическая проверка терминов между главами"
+  },
+  "quick_reference": {
+    "forbidden_words": [
+      "крайне",
+      "совершенна",
+      "вырезать",
+      "присылал",
+      "собираюсь",
+      "позволь"
+    ],
+    "preferred_style": "веб-новелла: нейтральные описания автора, разговорный стиль в мыслях и диалогах",
+    "character_voices": {
+      "Цзян Чэнь": "грубость в мыслях, элегантность в речи",
+      "Е Цинчэн": "холодная элегантность",
+      "Ду Гуюнь": "пафосный стиль"
+    },
+    "system_style": "игровые уведомления с 'Динь!'",
+    "giggle_translation": "Giggle переводить как 'Хаха'",
+    "heh_translation": "Heh переводить как 'Ха'"
+  }
+}
